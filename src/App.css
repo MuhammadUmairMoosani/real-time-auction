@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.signinMain {
+  background-image: url('./components/image/background.jpg');
+  height:100vh;
+  background-repeat: no-repeat;
+  min-width: 500px;
+}
+.signinSecondDiv {
+  width:500px;
+  margin:  0 auto;
+  text-align: center;
+}
+.signinButton {
+  background-color: transparent;
+  padding:10px 16vh;
+  color: white;
+  border:solid 2px white;
+  margin:30px;
+}
+.siginP {
+  font-size: 12px
+}
+.signinAnchor {
+  color:white;
+  text-decoration:none
+}
+.formDiv {
+  background-color: #fa3d65;
+  width: 60%;
+  margin:0 auto;
+  height:585px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-top: 18px;
+  min-width: 800px
+}
+
+.formDiv th {
+  background-color: #f99f2c;
+  color:#ffffff;
+  padding:12px;
+}
+.formDiv td {
+  background-color:#ffffff;
+}
+
+.form {
+  width:52%;
+  margin:0 auto;
+}
+.form p {
+  margin:20px;
+  text-align: right
+}
+.TextField {
+  background-color:#ffffff;
+}
+.button {
+  background-color:#f99f2c;
+  border-color: #f99f2c;
+  color:#ffffff;
+  font-weight: bold;
+  margin-left: 118px
+}
+
+.category {
+  padding:12px 26px
+}
+.textArea {
+  padding:35px 50px;
+  resize: none;
+}
+.province {
+  padding:11px 118px 11px 25px;
+}
+.fromHead {
+  color:#ffffff;
+  margin-left: 29%;
+  padding-top: 16px
+}
+.uploadRapperButton {
+  /* width:260px;
+  height:20px;
+  position: absolute;
+  right:30%; */
+  padding:5px;
+  width:259px;
+  position: relative;
+    verticalAlign: middle;
+}
+.uploadPhotoBehind {
+      cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding:10px 1px;
+    width: '100%';
+    opacity: 0;
+}
+.bidderMainDiv h1 {
+  text-align: center;
+  background-color:#fa3d65;
+  width:80%;
+  margin:0 auto;
+  margin-top: 30px;
+  padding:20px;
+  border-radius: 5px;
+  color:#ffffff
+}
+.bidderMainDiv img {
+  width:119px;
+  
+}
+.bidderMainDiv p {
+  float: left;
+  margin:5%;
+  margin-top: 120px;
+  cursor: pointer;
+}
+.bidderMainDiv h2 {  
+  text-align: center;
+  text-justify: center;
+  font-family: Arial;
+}
+.eleImg {
+  margin-left: 20%
+}
+.homePageSignoutButton {
+  float:right;
+  height:0px;
+}
+.backButton {
+  background-color: #fa3d65;
+  border-color: #fa3d65;
+  padding:17px 70px 14px 66px;
+  text-align: center;
+ font-weight: bold;
+ font-size: 17;
+ margin-left: 215%;
+ margin-top:23px;
+}
+.DimageDiv {
+  border:5px solid #fa3d65;
+  border-radius: 10px;
+  width:50%;
+  height:70vh;
+  text-align: center;
+}
+.DimageDiv h1 {
+  background-color: #fa3d65;
+  color: #ffffff;
+  text-align: center
+}
+.DTextFeild {
+  border:5px solid #fa3d65;
+  border-radius: 10px;
+  text-align: center;
+  width:50%;
+  padding:35px 0px 35px 0px;
+}
+.DListDiv {
+position: absolute;
+top:1px;
+right:1px;
+border:5px solid #fa3d65;
+border-radius: 10px;
+width: 658px;
+height:90vh
+}
+.timeDiv {
+  width:100%;
+  background-color: #fa3d65;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.firstBidDiv {
+  background-color: gold;
+  color :black;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.bidsDiv {
+  overflow: auto;
+  height:400px;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  margin:10px;
+}
+.bidValue {
+  text-align: center;
+  scroll-behavior: auto
+}
+.heigestBid {
+  background-color: gold;
+  color:black;
+  text-align: center;
+  font-size: 50px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
